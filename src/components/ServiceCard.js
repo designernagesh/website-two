@@ -12,8 +12,8 @@ const ServiceCard = (props) => {
             <Card.Title>{ props.title }</Card.Title>
                 <Card.Text>
                 { props.desc }
-                </Card.Text>
-                <a href={ props.link }>Go somewhere</a>
+                </Card.Text>                
+                <a class="text-more-info text-primary-hover" href={ props.link }>Read more</a>
             </Card.Body>
             </Card>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import blog04 from '../images/blog-04.jpg'
 
 const Footer = () => {    
     return(
@@ -10,14 +11,12 @@ const Footer = () => {
   <div className="line">
     <div className="margin">
       {/* Collumn 1 */}
-      <div className="s-12 m-12 l-4 margin-m-bottom-2x">
-        <h4 className="text-uppercase text-strong">Our Philosophy</h4>
-        <p className="text-size-20"><em>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."</em></p><p>
-        </p><div className="line">
-          <h4 className="text-uppercase text-strong margin-top-30">About Our Company</h4>
+      <div className="s-12 m-12 l-4 margin-m-bottom-2x">        
+        <div className="line">
+          <h4 className="text-uppercase text-strong margin-top-10">About Our Company</h4>
           <div className="margin">
             <div className="s-12 m-12 l-4 margin-m-bottom">
-              <a className="image-hover-zoom" href="/"><img src="img/blog-04.jpg" alt="" /></a>
+              <a className="image-hover-zoom" href="/"><img src={ blog04 } alt="blogimage" /></a>
             </div>
             <div className="s-12 m-12 l-8 margin-m-bottom">
               <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
@@ -30,45 +29,29 @@ const Footer = () => {
       <div className="s-12 m-12 l-4 margin-m-bottom-2x">
         <h4 className="text-uppercase text-strong">Contact Us</h4>
         <div className="line">
-          <div className="s-1 m-1 l-1 text-center">
-            <i className="icon-placepin text-primary text-size-12" />
+          <div className="s-1 l-1 text-center">
+            <i className="fas fa-map-marker-alt text-primary text-size-12" />            
           </div>
           <div className="s-11 m-11 l-11 margin-bottom-10">
             <p><b>Adress:</b> Responsive Street 7, London, UK</p>
           </div>
         </div>
         <div className="line">
-          <div className="s-1 m-1 l-1 text-center">
-            <i className="icon-mail text-primary text-size-12" />
+          <div className="s-1 l-1 text-center">
+            <i className="fas fa-envelope text-primary text-size-12" />            
           </div>
           <div className="s-11 m-11 l-11 margin-bottom-10">
             <p><a href="/" className="text-primary-hover"><b>E-mail:</b> contact@sampledomain.com</a></p>
           </div>
         </div>
         <div className="line">
-          <div className="s-1 m-1 l-1 text-center">
-            <i className="icon-smartphone text-primary text-size-12" />
+          <div className="s-1 l-1 text-center">
+            <i className="fas fa-mobile-alt text-primary text-size-12" />            
           </div>
           <div className="s-11 m-11 l-11 margin-bottom-10">
             <p><b>Phone:</b> 0700 000 987</p>
           </div>
-        </div>
-        <div className="line">
-          <div className="s-1 m-1 l-1 text-center">
-            <i className="icon-twitter text-primary text-size-12" />
-          </div>
-          <div className="s-11 m-11 l-11 margin-bottom-10">
-            <p><a href="/" className="text-primary-hover"><b>Twitter</b></a></p>
-          </div>
-        </div>
-        <div className="line">
-          <div className="s-1 m-1 l-1 text-center">
-            <i className="icon-facebook text-primary text-size-12" />
-          </div>
-          <div className="s-11 m-11 l-11">
-            <p><a href="/" className="text-primary-hover"><b>Facebook</b></a></p>
-          </div>
-        </div>
+        </div>               
       </div>
       {/* Collumn 3 */}
       <div className="s-12 m-12 l-4">

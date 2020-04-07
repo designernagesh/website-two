@@ -1903,3 +1903,10 @@ a.active{
   background: #49BF4C none repeat scroll 0 0;
   color: #fff !important;
 }
+
+
+blockquote {
+  border: 0;
+  font-size: 1rem;
+  padding: 0 0 0 40px;
+}

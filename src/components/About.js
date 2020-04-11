@@ -14,18 +14,18 @@ const About = () => {
                         websiteData.about.map( item => {
                             return (
                                 <>
-                                    <div class="line">
-                                        <h2 class="text-size-30">{ item.title }</h2>
+                                    <div className="line">
+                                        <h2 className="text-size-30">{ item.title }</h2>
                                         <p>{ item.para1 }</p>
-                                        <blockquote class="margin-top-bottom-20">{ item.quote }</blockquote>
-                                        <p class="margin-bottom-30">{ item.para2 }</p>
-                                        <div class="line">
-                                        <div class="margin">
-                                            <div class="s-12 m-12 l-6 margin-m-bottom-30">
+                                        <blockquote className="margin-top-bottom-20">{ item.quote }</blockquote>
+                                        <p className="margin-bottom-30">{ item.para2 }</p>
+                                        <div className="line">
+                                        <div className="margin">
+                                            <div className="s-12 m-12 l-6 margin-m-bottom-30">
                                             <h2>{ item.subTitle1 }</h2>
                                             <p>{ item.subPara1 }</p>
                                             </div>
-                                            <div class="s-12 m-12 l-6">
+                                            <div className="s-12 m-12 l-6">
                                             <h2>{ item.subTitle2 }</h2>
                                             <p>{ item.subPara2 }</p>
                                             </div>
